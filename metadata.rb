@@ -6,7 +6,7 @@ description      "Installs/Configures jira"
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version          "0.1.3"
 
-depends 'database', '~> 1.6.1'
+depends 'database', '~> 1.6.0'
 depends 'java', '~> 1.20.0'
 depends 'mysql'
 depends 'openssl', '~> 1.1.1'
