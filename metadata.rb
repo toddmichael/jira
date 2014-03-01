@@ -4,7 +4,7 @@ maintainer_email "systems@secondmarket.com"
 license          "All rights reserved"
 description      "Installs/Configures jira"
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version          "0.1.0"
+version          "0.1.2"
 
 %w{database java mysql openssl postgresql}.each do |d|
   depends d
