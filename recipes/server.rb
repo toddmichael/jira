@@ -100,4 +100,5 @@ end
 service "jira" do
   supports :restart => true
   action [:enable, :start]
+  ignore_failure true
 end
