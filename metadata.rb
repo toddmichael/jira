@@ -9,7 +9,7 @@ version          "0.1.3"
 depends 'database', '~> 1.6.0'
 depends 'java', '~> 1.20.0'
 depends 'mysql'
-depends 'openssl', '~> 1.1.1'
+depends 'openssl', '~> 1.1.0'
 depends 'postgresql', '~> 3.3.4'
 
 %w{redhat centos}.each do |os|
